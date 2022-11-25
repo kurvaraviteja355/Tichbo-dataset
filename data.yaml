@@ -1,0 +1,13 @@
+train: ../dataset/train/images
+val: ../dataset/valid/images
+test: ../dataset/test/images
+
+nc: 47
+names: ['AB Bohne', 'AB Gemahlen', 'Athiopien Bohne', 'Athiopien Gemahlen', 'BM Bohne', 'BM Gemahlen', 'BW Bohne', 'BW Gemahlen', 'Barista CB', 'Barista CC', 'Barista Espresso', 'Barista Kolumbien', 'C Fino Bohne', 'CC Mild', 'CC Vollmundig 36 Pads', 'CC Vollmundig', 'Colombia BB Bohne', 'Colombia BB Gemahlen', 'Empty Shelf', 'Espresso Aromatisch', 'Espresso Kraftig', 'Espresso M Art', 'Espresso S Art', 'FM 36 Pads', 'FM Bohne', 'FM Gemahlen', 'FM Instant', 'Herzhatfe Mundig', 'LG Bohne', 'LG Gemahlen', 'SM Bohne', 'SM Gemahlen', 'Simo CC Colombia', 'Simo CCMild bigpack', 'Simo CCMild', 'Simo CCVollmundig bigpack', 'Simo CCVollmundig', 'Simo Decaff', 'Simo Es Brazil', 'Simo Es Caramel', 'Simo Es Elegant', 'Simo Es Kraft', 'Simo Es Vanilla', 'Simo Kaffee BW', 'Simo Kaffee Kraft', 'Simo Kaffee Mild', 'Simo Sunrise']
+
+roboflow:
+  workspace: project
+  project: tchibocoffee
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project/tchibocoffee/dataset/6
